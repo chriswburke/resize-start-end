@@ -2,6 +2,8 @@
 
 resize-start-end is a small utility for detecting the start and/or end of a series of window resize events.
 
+![demo](https://media.giphy.com/media/3o7aD89aoPIImWc5yM/giphy.gif)
+
 #### Installation
 
 ##### yarn
