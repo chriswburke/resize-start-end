@@ -4,7 +4,7 @@ resize-start-end is a small utility for detecting the start and/or end of a seri
 
 ![demo](https://media.giphy.com/media/3o7aD89aoPIImWc5yM/giphy.gif)
 
-#### Installation
+### Installation
 
 ##### yarn
 ```
@@ -15,7 +15,7 @@ yarn add resize-start-end
 npm i resize-start-end -S
 ```
 
-#### Usage
+### Usage
 
 ```js
 // ESM
