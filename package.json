@@ -1,6 +1,6 @@
 {
   "name": "resize-start-end",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small utility to detect the start and/or end of a series of window resize events.",
   "author": "Mike Wagz <mike@wagz.io>",
   "keywords": [
