@@ -1,0 +1,40 @@
+{
+  "name": "resize-start-end",
+  "version": "1.0.0",
+  "description": "A small utility to detect the start and/or end of a series of window resize events.",
+  "author": "Mike Wagz <mike@wagz.io>",
+  "keywords": [
+    "window",
+    "resize",
+    "start",
+    "end",
+    "event"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/mikehwagz/resize-start-end"
+  },
+  "bugs": {
+    "url": "https://www.github.com/mikehwagz/resize-start-end/issues"
+  },
+  "license": "ISC",
+  "main": "lib/index.js",
+  "scripts": {
+    "demo": "npm run build-lib && budo demo/index.js --open -d demo",
+    "build-lib": "babel src --out-dir lib",
+    "build-prod": "webpack -p",
+    "build": "npm run build-lib && npm run build-prod"
+  },
+  "dependencies": {
+    "lodash.debounce": "4.0.8",
+    "mitt": "1.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "budo": "^10.0.4",
+    "webpack": "^3.5.5"
+  }
+}
