@@ -1,4 +1,4 @@
-const resize = require('../dist/resize-start-end')()
+const resize = require('../lib')()
 const p = document.querySelector('p')
 
 resize.on('start', () => {
